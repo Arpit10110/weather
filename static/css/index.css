@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+    color: white;;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    text-align: center;
+    position: relative;
+    top: 1.4rem;
+    font-size: 3rem;
+    color: #68fffe;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.container{
+    border: 2px solid white;
+    width: 31rem;
+    border-radius: 2rem;
+    height: 35.6rem;
+}
+.search-btn{
+    background-color: #474b4b;
+    color: white;
+    border: 0px white;
+    padding: 0.3rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    width: 2.5rem;
+    position: relative;
+    top: 0.5rem;
+    left: 1rem;
+}
+.search-img{
+    width: 1.6rem;
+}
+.search-inp{
+    width: 22rem;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    font-weight: bold;
+    border-radius: 2rem;
+    border: 1px solid white;
+    margin-top: 0.8rem;
+    margin-left: 1.3rem;
+    font-size: 1.2rem;
+}
+.result
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.result-img{
+    width: 16rem;
+    height: 16rem;
+    position: relative;
+}
+.degree{
+    font-size: 3.5rem;
+    color: #91ff77;
+    letter-spacing: 0.3rem;
+    margin-top: -0.6rem;
+}
+.cityName{
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
+}
+.result2 {
+    padding-left: 1.5rem;
+}
+.humi {
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+}
+.me {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+@media only screen and (max-width: 568px) {
+    .head {
+        text-align: center;
+        position: relative;
+        top: 1.8rem;
+        font-size: 2.5rem;
+        color: #68fffe;
+    }
+    .container {
+        border: 2px solid white;
+        width: 18rem;
+        border-radius: 2rem;
+        height: 32.6rem;
+    }
+    .search-inp {
+        width: 10rem;
+        padding: 0.5rem;
+        padding-left: 2rem;
+        font-weight: bold;
+        border-radius: 2rem;
+        border: 1px solid white;
+        margin-top: 0.8rem;
+        margin-left: 1.3rem;
+    }
+    .search-btn {
+        background-color: #474b4b;
+        color: white;
+        border: 0px white;
+        padding: 0.3rem;
+        border-radius: 3rem;
+        cursor: pointer;
+        width: 2.5rem;
+        position: relative;
+        top: 0.5rem;
+        left: 0.5em;
+    }
+    .result-img {
+        width: 13rem;
+        height: 13rem;
+        position: relative;
+    }
+    .degree {
+        font-size: 3.2rem;
+        color: #91ff77;
+        letter-spacing: 0.3rem;
+        margin-top: -0.6rem;
+    }
+    .cityName {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        letter-spacing: 0.2rem;
+    }
+    .humi {
+        margin-top: 1.5rem;
+        font-size: 1.3rem;
+    }
+}
